@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ShapeShooter" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ShapeShooter" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ShapeShooter" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`sdl-config --cflags`" />
+			<Add directory="C:/SDL-1.2.15/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL" />
+			<Add library="SDL_image" />
+			<Add library="SDL_mixer" />
+			<Add library="SDL_gfx" />
+			<Add directory="C:/SDL-1.2.15/lib" />
+		</Linker>
+		<Unit filename="include/Acceleration.h" />
+		<Unit filename="include/BoundingBox.h" />
+		<Unit filename="include/BoundingSphere.h" />
+		<Unit filename="include/Component.h" />
+		<Unit filename="include/Health.h" />
+		<Unit filename="include/KeyInput.h" />
+		<Unit filename="include/LifeSpan.h" />
+		<Unit filename="include/MouseInput.h" />
+		<Unit filename="include/Position.h" />
+		<Unit filename="include/RenderComponent.h" />
+		<Unit filename="include/Velocity.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Acceleration.cpp" />
+		<Unit filename="src/BoundingBox.cpp" />
+		<Unit filename="src/BoundingSphere.cpp" />
+		<Unit filename="src/Component.cpp" />
+		<Unit filename="src/Health.cpp" />
+		<Unit filename="src/KeyInput.cpp" />
+		<Unit filename="src/LifeSpan.cpp" />
+		<Unit filename="src/MouseInput.cpp" />
+		<Unit filename="src/Position.cpp" />
+		<Unit filename="src/RenderComponent.cpp" />
+		<Unit filename="src/Velocity.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,5 @@
+xpos: 10
+moo
+OINK IM WORKING
+Game Fps: 38
+Exited cleanly

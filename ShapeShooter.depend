@@ -1,0 +1,582 @@
+# depslib dependency file v1.0
+1432411974 source:/home/oink/Documents/C/ShapeShooter/main.cpp
+	<cstdlib>
+	<stdlib.h>
+	<climits>
+	<iostream>
+	<SDL/SDL.h>
+	<SDL_mixer.h>
+	<SDL_gfxPrimitives.h>
+	<vector>
+	<cmath>
+	<ctime>
+	<typeinfo>
+	"./include/Position.h"
+	"./include/Velocity.h"
+	"./include/Acceleration.h"
+	"./include/BoundingBox.h"
+	"./include/BoundingSphere.h"
+	"./include/LifeSpan.h"
+	"./include/RenderComponent.h"
+	"./include/KeyInput.h"
+	"./include/MouseInput.h"
+
+1404155420 /usr/include/SDL/SDL_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_types.h
+	"SDL_stdinc.h"
+
+1411851952 /usr/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1411851952 /usr/include/SDL/SDL_platform.h
+
+1411851952 /usr/include/SDL/begin_code.h
+
+1411851952 /usr/include/SDL/close_code.h
+
+1411851952 /usr/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1383759176 /usr/include/SDL/SDL_gfxPrimitives.h
+	<math.h>
+	"SDL.h"
+
+1411851952 /usr/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_keysym.h
+
+1411851952 /usr/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1411851952 /usr/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1411851952 /usr/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1416446052 /home/oink/Documents/C/ShapeShooter/include/Position.h
+	"Component.h"
+
+1416446753 /home/oink/Documents/C/ShapeShooter/include/Component.h
+	<SDL/SDL.h>
+	<cmath>
+
+1416540632 /home/oink/Documents/C/ShapeShooter/include/Velocity.h
+	"Component.h"
+
+1416097360 source:/home/oink/Documents/C/ShapeShooter/src/BoundingSphere.cpp
+	"../include/BoundingSphere.h"
+
+1416097742 /home/oink/Documents/C/ShapeShooter/include/BoundingSphere.h
+	"Component.h"
+
+1416096825 source:/home/oink/Documents/C/ShapeShooter/src/Component.cpp
+	"../include/Component.h"
+
+1416097036 source:/home/oink/Documents/C/ShapeShooter/src/Position.cpp
+	"../include/Position.h"
+
+1416097126 source:/home/oink/Documents/C/ShapeShooter/src/Velocity.cpp
+	"../include/Velocity.h"
+
+1416185589 source:/home/oink/Documents/C/ShapeShooter/src/BoundingBox.cpp
+	"../include/BoundingBox.h"
+
+1416185690 /home/oink/Documents/C/ShapeShooter/include/BoundingBox.h
+	"Component.h"
+
+1416359022 /home/oink/Documents/C/ShapeShooter/include/Acceleration.h
+	"Component.h"
+
+1416360268 /home/oink/Documents/C/ShapeShooter/include/LifeSpan.h
+	"Component.h"
+
+1416357920 source:/home/oink/Documents/C/ShapeShooter/src/Acceleration.cpp
+	"../include/Acceleration.h"
+
+1416272428 source:/home/oink/Documents/C/ShapeShooter/src/Health.cpp
+	"../include/Health.h"
+
+1416358317 /home/oink/Documents/C/ShapeShooter/include/Health.h
+	"Component.h"
+
+1416272309 source:/home/oink/Documents/C/ShapeShooter/src/LifeSpan.cpp
+	"../include/LifeSpan.h"
+
+1416449087 source:/home/oink/Documents/C/ShapeShooter/src/RenderComponent.cpp
+	"../include/RenderComponent.h"
+
+1416449153 /home/oink/Documents/C/ShapeShooter/include/RenderComponent.h
+	"Component.h"
+
+1416537720 source:/home/oink/Documents/C/ShapeShooter/src/KeyInput.cpp
+	"../include/KeyInput.h"
+
+1416540325 /home/oink/Documents/C/ShapeShooter/include/KeyInput.h
+	"Component.h"
+
+1416537146 source:/home/oink/Documents/C/ShapeShooter/src/MouseInput.cpp
+	"../include/MouseInput.h"
+
+1416540331 /home/oink/Documents/C/ShapeShooter/include/MouseInput.h
+	"Component.h"
+
+1477274620 source:c:\users\piggy\desktop\c\shapeshooter\main.cpp
+	<cstdlib>
+	<stdlib.h>
+	<climits>
+	<iostream>
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<SDL/SDL_gfxPrimitives.h>
+	<vector>
+	<cmath>
+	<ctime>
+	<typeinfo>
+	"./include/Position.h"
+	"./include/Velocity.h"
+	"./include/Acceleration.h"
+	"./include/BoundingBox.h"
+	"./include/BoundingSphere.h"
+	"./include/LifeSpan.h"
+	"./include/RenderComponent.h"
+	"./include/KeyInput.h"
+	"./include/MouseInput.h"
+
+1460000712 c:\users\piggy\desktop\c\shapeshooter\include\position.h
+	"Component.h"
+
+1460000712 c:\users\piggy\desktop\c\shapeshooter\include\component.h
+	<SDL/SDL.h>
+	<cmath>
+
+1460000712 c:\users\piggy\desktop\c\shapeshooter\include\velocity.h
+	"Component.h"
+
+1460000712 c:\users\piggy\desktop\c\shapeshooter\include\acceleration.h
+	"Component.h"
+
+1460000712 c:\users\piggy\desktop\c\shapeshooter\include\boundingbox.h
+	"Component.h"
+
+1460000712 c:\users\piggy\desktop\c\shapeshooter\include\boundingsphere.h
+	"Component.h"
+
+1460000712 c:\users\piggy\desktop\c\shapeshooter\include\lifespan.h
+	"Component.h"
+
+1460000712 c:\users\piggy\desktop\c\shapeshooter\include\rendercomponent.h
+	"Component.h"
+
+1460000712 c:\users\piggy\desktop\c\shapeshooter\include\keyinput.h
+	"Component.h"
+
+1460000712 c:\users\piggy\desktop\c\shapeshooter\include\mouseinput.h
+	"Component.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326114587 c:\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326114594 c:\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326114600 c:\sdl-1.2.15\include\sdl\begin_code.h
+
+1325742239 c:\sdl-1.2.15\include\sdl\close_code.h
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1477271173 c:\sdl-1.2.15\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\sdl-1.2.15\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1477269708 c:\sdl-1.2.15\include\sdl\sdl_gfxprimitives.h
+	<math.h>
+	"SDL/SDL.h"
+
+1460000712 source:c:\users\piggy\desktop\c\shapeshooter\src\acceleration.cpp
+	"../include/Acceleration.h"
+
+1460000712 source:c:\users\piggy\desktop\c\shapeshooter\src\boundingbox.cpp
+	"../include/BoundingBox.h"
+
+1460000712 source:c:\users\piggy\desktop\c\shapeshooter\src\boundingsphere.cpp
+	"../include/BoundingSphere.h"
+
+1460000712 source:c:\users\piggy\desktop\c\shapeshooter\src\component.cpp
+	"../include/Component.h"
+
+1460000712 source:c:\users\piggy\desktop\c\shapeshooter\src\health.cpp
+	"../include/Health.h"
+
+1460000712 c:\users\piggy\desktop\c\shapeshooter\include\health.h
+	"Component.h"
+
+1460000712 source:c:\users\piggy\desktop\c\shapeshooter\src\keyinput.cpp
+	"../include/KeyInput.h"
+
+1460000712 source:c:\users\piggy\desktop\c\shapeshooter\src\lifespan.cpp
+	"../include/LifeSpan.h"
+
+1460000712 source:c:\users\piggy\desktop\c\shapeshooter\src\mouseinput.cpp
+	"../include/MouseInput.h"
+
+1460000712 source:c:\users\piggy\desktop\c\shapeshooter\src\position.cpp
+	"../include/Position.h"
+
+1460000712 source:c:\users\piggy\desktop\c\shapeshooter\src\rendercomponent.cpp
+	"../include/RenderComponent.h"
+
+1460000712 source:c:\users\piggy\desktop\c\shapeshooter\src\velocity.cpp
+	"../include/Velocity.h"
+
